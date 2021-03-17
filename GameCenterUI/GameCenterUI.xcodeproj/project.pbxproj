@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7038E4E72602135100014967 /* ThirdScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7038E4E62602135100014967 /* ThirdScreenView.swift */; };
+		705485252601145F004E08CE /* GameCenterUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705485242601145F004E08CE /* GameCenterUIApp.swift */; };
+		705485272601145F004E08CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705485262601145F004E08CE /* ContentView.swift */; };
+		705485292601145F004E08CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 705485282601145F004E08CE /* Assets.xcassets */; };
+		7054852C2601145F004E08CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7054852B2601145F004E08CE /* Preview Assets.xcassets */; };
+		7054853926011C40004E08CE /* QGrid in Frameworks */ = {isa = PBXBuildFile; productRef = 7054853826011C40004E08CE /* QGrid */; };
+		7054854026012022004E08CE /* CategoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7054853F26012022004E08CE /* CategoriesCell.swift */; };
+		70548544260120FC004E08CE /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70548543260120FC004E08CE /* Categories.swift */; };
+		705485482601258F004E08CE /* category.json in Resources */ = {isa = PBXBuildFile; fileRef = 705485472601258F004E08CE /* category.json */; };
+		7054855C26013969004E08CE /* SecondScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7054855B26013969004E08CE /* SecondScreenView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7038E4E62602135100014967 /* ThirdScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdScreenView.swift; sourceTree = "<group>"; };
+		705485212601145F004E08CE /* GameCenterUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameCenterUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		705485242601145F004E08CE /* GameCenterUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCenterUIApp.swift; sourceTree = "<group>"; };
+		705485262601145F004E08CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		705485282601145F004E08CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7054852B2601145F004E08CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7054852D2601145F004E08CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7054853F26012022004E08CE /* CategoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCell.swift; sourceTree = "<group>"; };
+		70548543260120FC004E08CE /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		705485472601258F004E08CE /* category.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = category.json; path = ../../../../Downloads/category.json; sourceTree = "<group>"; };
+		7054855B26013969004E08CE /* SecondScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7054851E2601145F004E08CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7054853926011C40004E08CE /* QGrid in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		705485182601145F004E08CE = {
+			isa = PBXGroup;
+			children = (
+				705485232601145F004E08CE /* GameCenterUI */,
+				705485222601145F004E08CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		705485222601145F004E08CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				705485212601145F004E08CE /* GameCenterUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		705485232601145F004E08CE /* GameCenterUI */ = {
+			isa = PBXGroup;
+			children = (
+				70548542260120F1004E08CE /* Utils */,
+				705485352601147C004E08CE /* View */,
+				705485342601146B004E08CE /* Application */,
+				705485282601145F004E08CE /* Assets.xcassets */,
+				705485472601258F004E08CE /* category.json */,
+				7054852D2601145F004E08CE /* Info.plist */,
+				7054852A2601145F004E08CE /* Preview Content */,
+			);
+			path = GameCenterUI;
+			sourceTree = "<group>";
+		};
+		7054852A2601145F004E08CE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7054852B2601145F004E08CE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		705485342601146B004E08CE /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				705485242601145F004E08CE /* GameCenterUIApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		705485352601147C004E08CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				705485262601145F004E08CE /* ContentView.swift */,
+				7054853F26012022004E08CE /* CategoriesCell.swift */,
+				7054855B26013969004E08CE /* SecondScreenView.swift */,
+				7038E4E62602135100014967 /* ThirdScreenView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		70548542260120F1004E08CE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				70548543260120FC004E08CE /* Categories.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		705485202601145F004E08CE /* GameCenterUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 705485302601145F004E08CE /* Build configuration list for PBXNativeTarget "GameCenterUI" */;
+			buildPhases = (
+				7054851D2601145F004E08CE /* Sources */,
+				7054851E2601145F004E08CE /* Frameworks */,
+				7054851F2601145F004E08CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GameCenterUI;
+			packageProductDependencies = (
+				7054853826011C40004E08CE /* QGrid */,
+			);
+			productName = GameCenterUI;
+			productReference = 705485212601145F004E08CE /* GameCenterUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		705485192601145F004E08CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					705485202601145F004E08CE = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 7054851C2601145F004E08CE /* Build configuration list for PBXProject "GameCenterUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 705485182601145F004E08CE;
+			packageReferences = (
+				7054853726011C40004E08CE /* XCRemoteSwiftPackageReference "QGrid" */,
+			);
+			productRefGroup = 705485222601145F004E08CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				705485202601145F004E08CE /* GameCenterUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7054851F2601145F004E08CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				705485482601258F004E08CE /* category.json in Resources */,
+				7054852C2601145F004E08CE /* Preview Assets.xcassets in Resources */,
+				705485292601145F004E08CE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7054851D2601145F004E08CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7054854026012022004E08CE /* CategoriesCell.swift in Sources */,
+				70548544260120FC004E08CE /* Categories.swift in Sources */,
+				7038E4E72602135100014967 /* ThirdScreenView.swift in Sources */,
+				7054855C26013969004E08CE /* SecondScreenView.swift in Sources */,
+				705485272601145F004E08CE /* ContentView.swift in Sources */,
+				705485252601145F004E08CE /* GameCenterUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7054852E2601145F004E08CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7054852F2601145F004E08CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		705485312601145F004E08CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GameCenterUI/Preview Content\"";
+				DEVELOPMENT_TEAM = C7UJQJ2BAR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GameCenterUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.furkanhanci.GameCenterUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		705485322601145F004E08CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GameCenterUI/Preview Content\"";
+				DEVELOPMENT_TEAM = C7UJQJ2BAR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GameCenterUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.furkanhanci.GameCenterUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7054851C2601145F004E08CE /* Build configuration list for PBXProject "GameCenterUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7054852E2601145F004E08CE /* Debug */,
+				7054852F2601145F004E08CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		705485302601145F004E08CE /* Build configuration list for PBXNativeTarget "GameCenterUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				705485312601145F004E08CE /* Debug */,
+				705485322601145F004E08CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7054853726011C40004E08CE /* XCRemoteSwiftPackageReference "QGrid" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Q-Mobile/QGrid";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7054853826011C40004E08CE /* QGrid */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7054853726011C40004E08CE /* XCRemoteSwiftPackageReference "QGrid" */;
+			productName = QGrid;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 705485192601145F004E08CE /* Project object */;
+}
